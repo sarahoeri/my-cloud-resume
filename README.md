@@ -6,6 +6,8 @@ This challenge aims to host a Static Website, which is your Cloud Resume, on AWS
 ### 1. Write HTML and CSS for your resume using your favourite IDE
 In my case, I used a template from CloudmyTribe Community. You can write your own HTML and CSS code to customize your resume to your liking. I used Gitpod, a Cloud Development Environment with the Visual Studio Code IDE, where I edited the template to add my resume details. Gitpod can be integrated with Github through the Gitpod extension for your browser. This enables you to commit and push your code to your GitHub repository.
 ### 2. Upload your code to an Amazon S3 bucket
-Upload your code file to an Amazon S3 bucket after creating it. Since the bucket is for static website hosting, unselect 'Block all public access' under your bucket permissions. Also, enable the static website hosting property for your bucket. You need to provide a bucket policy to enable access to the files.
+After creating your bucket, upload your code file to an Amazon S3. Since the bucket is for static website hosting, unselect 'Block all public access' under your bucket permissions. Also, enable the static website hosting property for your bucket. You need to provide a bucket policy to enable access to the files.
 Reference: https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6
+### 3. Create a hosted zone in Amazon Route 53
+A hosted zone is a container for records containing information about how you want to route traffic for a specific domain. It tells Route 53 how to respond to DNS queries. You need a registered domain name. I purchased an affordable option with a .buzz extension at Host Africa. Reference: Amazon Route 53 documentation
 
