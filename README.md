@@ -9,5 +9,9 @@ In my case, I used a template from CloudmyTribe Community. You can write your ow
 After creating your bucket, upload your code file to an Amazon S3. Since the bucket is for static website hosting, unselect 'Block all public access' under your bucket permissions. Also, enable the static website hosting property for your bucket. You need to provide a bucket policy to enable access to the files.
 Reference: https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6
 ### 3. Create a hosted zone in Amazon Route 53
-A hosted zone is a container for records containing information about how you want to route traffic for a specific domain. It tells Route 53 how to respond to DNS queries. You need a registered domain name. I purchased an affordable option with a .buzz extension at Host Africa. Proceed to create a public hosted zone using the purchased domain name. Navigate to your domain registrar and locate Nameservers under DNS Management. Edit the nameservers to enter your custom nameservers from the AWS hosted zone you created and save.
+A hosted zone is a container for records containing information about how you want to route traffic for a specific domain. It tells Route 53 how to respond to DNS queries. You need a registered domain name. I purchased an affordable option with a .buzz extension at Host Africa. Proceed to create a public hosted zone using the purchased domain name. Navigate to your domain registrar and locate Nameservers under DNS Management. Edit the nameservers to enter your custom nameservers from the AWS Route 53 hosted zone you created and save.
+### 4. Generate a certificate using AWS Certificate Manager
+In ACM, request a public certificate that will provide SSL/TLS to enable secure access to your website via HTTPS instead of HTTP, which is not secure. To request a public certificate, enter your fully qualified domain name and leave other options as defaults. The certificate created is in pending validation status, as it requires more configurations and creating a record set to be validated.
+
+
 
