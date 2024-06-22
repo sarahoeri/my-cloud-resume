@@ -22,6 +22,6 @@ In Route 53 dashboard, create a record in the hosted zone created in the previou
 This steps of configuration should now enable the static website to be securely accessed through your domain name. Notice the padlock icon on my Cloud Resume static website https://sarahcloudresume.buzz/
 
 # References
-How to host a static website on Amazon S3 https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6
+How to host a static website on Amazon S3 https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6 
+
 Amazon Route 53 Documentation
-[https://www.youtube.com/@techwithhele](https://www.youtube.com/playlist?list=PLqoUmUbJ_zDGTajZjNpYI3QAJhu6sLgaB)n
