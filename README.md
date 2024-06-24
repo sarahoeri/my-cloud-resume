@@ -21,7 +21,7 @@ In Route 53 dashboard, create a record in the hosted zone created in the previou
 ## Validation
 This steps of configuration should now enable the static website to be securely accessed through your domain name. Notice the padlock icon on my Cloud Resume static website https://sarahcloudresume.buzz/
 ## Challenges Faced
-This project was pretty straightforward. Although when creating a CloudFront distribution, it may fail to be created because of account validation required which prevents the distribution from being created. From the error message, it required to contact AWS Support for your account to be validated in order to create a CloudFront distribution. From some research, this issue can be solved without contacting support. Create a t2 micro EC2 instance and terminate it after 20 min. This solution solves the problem. It could be an issue related to quotas, this solution increases zeroed quotas and clears the account verification message. 
+This project was pretty straightforward. Although when creating a CloudFront distribution, it may fail to be created because of account validation required which prevents the distribution from being created. From the error message, you are required to contact AWS Support for your account to be validated in order to create a CloudFront distribution. From some research, this issue can be solved without contacting support. Create a t2 micro EC2 instance and terminate it after 20 min. This solution solves the problem. It could be an issue related to quotas, this solution increases zeroed quotas and clears the account verification message. 
 
 # References
 How to host a static website on Amazon S3 https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6 
