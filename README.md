@@ -25,9 +25,9 @@ This steps of configuration should now enable the static website to be securely 
 ## Key Takeaways
 - This project solidified my understanding of Route 53 (hosted zones, record sets), AWS Certificate Manager (generating and validating SSL certificates), and Amazon CloudFront (distributions), which I had not previously interacted with hands-on to deliver a solution.
 # References
-How to host a static website on Amazon S3 https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6
-Amazon Route 53 Documentation
-AWS Cerificate Manager Documentation
-Amazon CloudFront Documentation
-How to Host a Static Website using S3, Route 53 and CloudFront https://youtube.com/playlist?list=PLqoUmUbJ_zDGTajZjNpYI3QAJhu6sLgaB&si=Yvb0CN2q7I__TDW9
+- How to host a static website on Amazon S3 https://kevinkiruri.medium.com/hosting-a-static-website-on-aws-s3-35f49dd1c5e6
+- Amazon Route 53 Documentation
+- AWS Cerificate Manager Documentation
+- Amazon CloudFront Documentation
+- How to Host a Static Website using S3, Route 53 and CloudFront https://youtube.com/playlist?list=PLqoUmUbJ_zDGTajZjNpYI3QAJhu6sLgaB&si=Yvb0CN2q7I__TDW9
 
